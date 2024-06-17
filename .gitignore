@@ -1,0 +1,4 @@
+.pyzarroweb/
+pyzarroweb/__pycache__/
+recetas/__pycache__/
+recetas/migrations/__pycache__/

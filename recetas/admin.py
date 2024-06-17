@@ -7,4 +7,8 @@ from .models import *
 class RecetaAdmin(admin.ModelAdmin):
     list_display = ('name', 'code')
 
+@admin.register(Ingrediente)
+class IngredienteAdmin(admin.ModelAdmin):
+    list_display = ('name', 'quantity','unit')
+
 
